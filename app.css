@@ -1,7 +1,27 @@
-.lamp-on {
-    transform: scaleX(-1);
+
+/* GENERAL */
+body {
+    height: 100vh;
 }
 
+img {
+    display: block;
+}
+
+/* Metodo 2
 .display-none{
     display: none;
+} */
+
+/* LAYOUT */
+div.container {
+    width: 350px;
+}
+
+/* Main */
+.lamp-card {
+    box-shadow: 0 0 10px black;
+    background-image: url(./img/background.jpg);
+    background-size: contain;
+    padding: 10px 0;
 }
