@@ -1,3 +1,7 @@
 .lamp-on {
     transform: scaleX(-1);
 }
+
+.display-none{
+    display: none;
+}
